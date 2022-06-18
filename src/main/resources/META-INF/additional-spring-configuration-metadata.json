@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "pulsar.topic",
+      "type": "java.lang.String",
+      "description": "Pulsar topic name"
+    },
+    {
+      "name": "pulsar.service-url",
+      "type": "java.lang.String",
+      "description": "for example: pulsar://pulsar.rusatom.dedyn.io:6650"
+    },
+    {
+      "name": "pulsar.default-topic-size",
+      "type": "java.lang.Integer",
+      "description": "Description for pulsar.default-topic-size."
+    },
+    {
+      "name": "pulsar.negative-ack-redelivery-delay",
+      "type": "java.lang.String",
+      "description": "Description for pulsar.negative-ack-redelivery-delay."
+    },
+    {
+      "name": "pulsar.ack-timeout",
+      "type": "java.lang.String",
+      "description": "Description for pulsar.ack-timeout."
+    }
+  ] }
